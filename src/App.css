@@ -85,7 +85,6 @@ html {
 
 .field2 .atention {
   font-size: 15.6px;
-  /* line-height: 18px; */
   line-height: 37px;
   display: flex;
   align-items: center;
@@ -165,5 +164,88 @@ html {
 @media (min-width: 900px) {
   .conteiner {
     min-height: 100vh;
+  }
+  .content {
+    width: 63.5rem;
+    height: 47.3rem;
+    background: #fff;
+    filter: drop-shadow(8px 24px 30px rgba(152, 166, 189, 0.3));
+    border-radius: 0.5rem;
+    display: grid;
+    gap: 0;
+    grid-template-areas:
+      'field1 field1'
+      'field2 field3';
+  }
+  .field1 {
+    height: 21.7rem;
+    padding: 4.1rem 7.1rem 4.4rem 3.9rem;
+  }
+  .field1 h1 {
+    font-size: 23.5px;
+    line-height: 27px;
+    margin-bottom: 2.65rem;
+  }
+
+  .field1 h2 {
+    font-size: 18.3px;
+    line-height: 19px;
+    margin-left: 0.2rem;
+    margin-bottom: 0.95rem;
+  }
+
+  .field1 p {
+    font-size: 15.6px;
+    line-height: 26px;
+    margin-left: 0.2rem;
+  }
+
+  .field2 {
+    width: 31.6rem;
+    height: 25.6rem;
+    padding: 4rem 3.8rem 4rem 4rem;
+  }
+
+  .field2 h1 {
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+  }
+
+  .field2 .text {
+    font-size: 15.6px;
+    margin: 0.1rem 0 2.9rem 0.1rem;
+  }
+
+  .field2 button {
+    width: 23.8rem;
+    height: 5rem;
+  }
+  .field2 button:hover {
+    background: rgba(191, 223, 50, 1);
+    filter: contrast(130%);
+  }
+
+  .field3 {
+    width: 31.9rem;
+    height: 25.6rem;
+    padding: 3.9rem 10rem 3.7rem 3.6rem;
+  }
+
+  .field3 h1 {
+    font-weight: bold;
+    font-size: 17.8px;
+    line-height: 21px;
+    margin: 0rem 0 1.8rem 0.5rem;
+  }
+
+  .field3 p {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 0.6rem;
+  }
+
+  .field3 span {
+    padding-right: 0rem;
   }
 }

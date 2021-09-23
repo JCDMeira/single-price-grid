@@ -24,7 +24,6 @@ Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
-<!--
 
 ## Screenshot
 
@@ -41,7 +40,7 @@ Users should be able to:
 ### Desktop design
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
-
+<!--
 ### result of my work
 
 <p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
@@ -58,37 +57,42 @@ Users should be able to:
 
 ### Built with
 
-- Flexbox
+- CSS Grid
+- Grid template areas
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
-<!--
-It is possible to merge or separate css for each element, with common parts being added for all indicated elements, while specific parts only for the desired element.
+Using the grid template areas to define occupied spaces with an alias
 
 ```CSS
-  .field1,
-  .field2,
-  .field3 {
-    width: 40rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  .content {
+  display: grid;
+  gap: 0;
+  grid-template-areas:
+    'field1'
+    'field2'
+    'field3';
+}
 
-  .field1 {
-    padding: 14.9rem 0 0 3.4rem;
+.field1 {
+  grid-area: field1;
+}
+.field2 {
+  grid-area: field2;
+}
+.field3 {
+  grid-area: field3;
+}
+@media (min-width: 900px) {
+  .content {
+    grid-template-areas:
+      'field1 field1'
+      'field2 field3';
   }
-
-  .field2 {
-    padding: 1rem 0 1.8rem 0;
-  }
-  .field3 {
-    padding: 15rem 0 0 0rem;
-  }
-``` -->
+}
+```
 
 ### Useful resources
 

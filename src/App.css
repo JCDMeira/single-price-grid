@@ -11,8 +11,131 @@ html {
 
 .conteiner {
   width: 100%;
+  height: 85.6rem;
+  background: #e6eff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-  width: 100%;
+  width: 82.93%;
+  height: 72.1rem;
+  background: #fff;
+  filter: drop-shadow(8px 24px 30px rgba(152, 166, 189, 0.3));
+  border-radius: 0.5rem;
+  display: grid;
+  gap: 0;
+  grid-template-areas:
+    'field1'
+    'field2'
+    'field3';
+}
+
+.field1 {
+  grid-area: field1;
+  height: 26.7rem;
+  padding: 3.2rem 1.9rem 3.5rem 2.4rem;
+}
+
+.field1 h1 {
+  font-weight: bold;
+  font-size: 19.5px;
+  line-height: 23px;
+  color: #47a4a4;
+  margin-bottom: 2.65rem;
+}
+
+.field1 h2 {
+  font-weight: normal;
+  font-size: 15.3px;
+  line-height: 19px;
+  color: #bdcf63;
+  margin-bottom: 1.65rem;
+}
+
+.field1 p {
+  font-weight: normal;
+  font-size: 13.6px;
+  line-height: 26px;
+  color: #b9bdc6;
+}
+
+.field2 {
+  grid-area: field2;
+  height: 22.7rem;
+  background: #2bb3b1;
+  color: #fff;
+  padding: 2.5rem 2.3rem 2.2rem 2.3rem;
+}
+
+.field2 h1 {
+  font-weight: bold;
+  font-size: 17.6px;
+  line-height: 21px;
+  margin-top: 0.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.field2 .atention {
+  font-size: 15.6px;
+  /* line-height: 18px; */
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.field2 .atention span {
+  font-weight: bold;
+  font-size: 31.5px;
+  line-height: 37px;
+  margin-right: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.field2 .text {
+  font-weight: normal;
+  font-size: 15.5px;
+  line-height: 18px;
+  margin-left: 0.1rem;
+  margin-bottom: 2.9rem;
+}
+
+.field2 button {
+  width: 26.5rem;
+  height: 5rem;
+  background: #bfdf32;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15.6px;
+  line-height: 18px;
+}
+
+.field3 {
+  grid-area: field3;
+  height: 22.7rem;
+  background: #4abebd;
+  padding: 2.6rem 11rem 2.2rem 1.9rem;
+  color: #fff;
+}
+
+.field3 h1 {
+  font-weight: bold;
+  font-size: 17.8px;
+  line-height: 21px;
+  margin: 0.4rem 0 1.8rem 0.4rem;
+}
+
+.field3 p {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 0.5rem;
+}
+
+.field3 span {
+  display: block;
 }

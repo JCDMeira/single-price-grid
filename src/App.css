@@ -8,10 +8,14 @@ html {
   font-size: 62.5%;
   font-family: Karla;
 }
+.App {
+  background: #e6eff6;
+  height: 100vh;
+}
 
 .conteiner {
   width: 100%;
-  height: 85.6rem;
+  min-height: 85.6rem;
   background: #e6eff6;
   display: flex;
   justify-content: center;
@@ -19,7 +23,7 @@ html {
 }
 
 .content {
-  width: 82.93%;
+  width: 100%;
   height: 72.1rem;
   background: #fff;
   filter: drop-shadow(8px 24px 30px rgba(152, 166, 189, 0.3));
@@ -34,6 +38,7 @@ html {
 
 .field1 {
   grid-area: field1;
+  width: 100%;
   height: 26.7rem;
   padding: 3.2rem 1.9rem 3.5rem 2.4rem;
 }
@@ -64,9 +69,10 @@ html {
 .field2 {
   grid-area: field2;
   height: 22.7rem;
+  width: 100%;
   background: #2bb3b1;
   color: #fff;
-  padding: 2.5rem 2.3rem 2.2rem 2.3rem;
+  padding: 2.5rem 0rem 2.2rem 2.3rem;
 }
 
 .field2 h1 {
@@ -102,7 +108,7 @@ html {
 }
 
 .field2 button {
-  width: 26.5rem;
+  width: 18rem;
   height: 5rem;
   background: #bfdf32;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
@@ -117,8 +123,9 @@ html {
 .field3 {
   grid-area: field3;
   height: 22.7rem;
+  width: 100%;
   background: #4abebd;
-  padding: 2.6rem 11rem 2.2rem 1.9rem;
+  padding: 1rem 11rem 2.2rem 1.9rem;
   color: #fff;
 }
 
@@ -138,4 +145,25 @@ html {
 
 .field3 span {
   display: block;
+}
+
+@media (min-width: 375px) {
+  .content {
+    width: 82.93%;
+  }
+  .field2 {
+    padding: 2.5rem 2.3rem 2.2rem 2.3rem;
+  }
+  .field2 button {
+    width: 26.5rem;
+  }
+  .field3 {
+    padding: 2.6rem 11rem 2.2rem 1.9rem;
+    color: #fff;
+  }
+}
+@media (min-width: 900px) {
+  .conteiner {
+    min-height: 100vh;
+  }
 }

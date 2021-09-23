@@ -40,17 +40,15 @@ Users should be able to:
 ### Desktop design
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
-<!--
+
 ### result of my work
 
-<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>
 
 ### Links
 
-<!--
-- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/four-cards-with-reactjs-ZfgqtqlIl)
-- Live Site URL: [check the result ](https://jdcmeira-four-card.netlify.app) -->
-
+- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/single-price-grid-with-reactjs-YR5dhXAtZ)
+- Live Site URL: [check the result](https://jcdmeira-single-price.netlify.app)
 - My figma design: [Figma](https://www.figma.com/file/qoi5g7sQ81YZysFwJJoWIz/07---Single-price?node-id=0%3A1)
 
 ## My process
